@@ -171,3 +171,13 @@ let familyList = [
 ];
 
 console.log(familyList[0].name + " " +familyList[0].age);
+
+// ---------------------------------------------------------
+
+familyList.forEach((item)=>{
+  if(item.age >= 21){
+    console.log('You adult!')
+  }
+})
+
+
