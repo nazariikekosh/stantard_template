@@ -38,9 +38,9 @@ function isAdult(age){
 USER_DATA.forEach((user)=>{
   const ADULT = isAdult(user.age);
   if(ADULT){
-    console.log('Ви повнолітні',user.age )
+    console.log('Ви повнолітні',user.age );
   }else{
-    console.log("Ви не повнолітні", user.age)
+    console.log("Ви не повнолітні",user.age);
   }
 })
 
