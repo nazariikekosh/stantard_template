@@ -1,7 +1,7 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="col-12 d-flex align-item-center">
+            <div class="col-12 d-flex align-items-center">
                 <div class="header__img">
                     <img src="./img/image 7.png" alt="image 7">
                 </div>
@@ -17,8 +17,56 @@
                 </div>
             </div>
             <form>
-                <div class="form__name"></div>
-                <div class="for__surname"></div>
+                <input class="form__name" type="text" id="name" name="name" placeholder="name"> <br>
+                <input class="for__surname" type="text" id="surname" name="surname" placeholder="surname">
+                <div class="form__title">
+                    <h2>
+                        Про мене
+                    </h2>
+                </div>
+                <textarea class="form__area" name="" id="area" cols=50% rows="10" re>
+                </textarea>
+                <div class="form__title">
+                    <h2>
+                        Локація
+                    </h2>
+                </div>
+                <select class="form__location_option" name="location" id="location">
+                    <option value="">оберіть локацію</option>
+                    <option value="lviv">Львів</option>
+                    <option value="odesa">Одеса</option>
+                    <option value="kyiv">Київ</option>
+                </select>
+                <div class="form__title">
+                    <h2>
+                        Мови спілкування
+                    </h2>
+                </div>
+                <select class="form__lang" name="location" id="location">
+                    <option value="">оберіть мову</option>
+                    <option value="eng">Англійська</option>
+                    <option value="uk">Українська</option>
+                </select>
+                <div class="form__title">
+                <h2 class="form__title">Досвід роботи</h2>
+                <input type="checkbox" id="check" name="expirience1" value="expirience">
+                <label for="expirience1">Без досвіду роботи</label>
+                <input type="checkbox" id="check" name="expirience2" value="expirience">
+                <label for="expirience2">Від 1 до 3 років</label><br>
+                <input type="checkbox" id="check" name="expirience3" value="expirience">
+                <label for="expirience3">Від 3 до 6 років</label>
+                <input type="checkbox" id="check" name="expirience4" value="expirience">
+                <label for="expirience4">Більше 6 років</label><br>
+
+                <h2 class="form__title">Термін, який готова працювати</h2>
+
+                <input type="checkbox" id="check" name="term1" value="term1">
+                <label for="term1">до 10 днів</label><br>
+                <input type="checkbox" id="check" name="term2" value="term2">
+                <label for="term2">від 10 днів і більше</label><br>
+
+                <input  id="sub" type="submit" value="Submit">
+
             </form>
         </div>
 </header>
