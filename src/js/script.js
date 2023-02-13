@@ -2,11 +2,13 @@ function getDataUser() {
   const userName = document.getElementById('name').value;
   const userSurname = document.getElementById('surname').value;
   const userArea = document.getElementById('area').value;
+  const userLocation = document.getElementById('location').value;
 
   const userData = {
     name: `${userName}`,
     surname: `${userSurname}`,
-    area: `${userArea}`
+    area: `${userArea}`,
+    location: `${userLocation}`
 
 }
 return userData
